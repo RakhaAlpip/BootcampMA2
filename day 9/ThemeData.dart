@@ -1,0 +1,31 @@
+final ThemeDatacustomTheme = ThemeData(
+  colorScheme: ColorScheme.fromSeed(
+    seedColor: Colors.teal,
+    brightness: Brightness.light,
+  ),
+  scaffoldBackgroundColor: Colors.white,
+  appBarTheme: AppBarTheme(
+    backgroundColor: Colors.teal,
+    foregroundColor: Colors.white,
+    elevation: 4,
+  ),
+  textTheme: TextTheme(
+    headlineLarge: TextStyle(fontSize: 32, fontWeight: FontWeight.bold),
+    bodyMedium: TextStyle(fontSize: 16),
+    laberLarge: TextStyle(fontSize: 14, letterSpacing: 1.2),
+  ),
+  elevatedButtonTheme: ElevatedButtonTheme(
+    style: ElevatedButton.stylefrom(
+      backgroundColor: Colors.teal,
+      foregroundColor: Colors.white,
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(12),
+      ),
+    ),
+  ),
+  inputDecorationTheme: InputDecorationTheme(
+    border: OutlineInputBorder(
+      borderRadius: BorderRadius.circular(8),
+    ),
+  ),
+);
